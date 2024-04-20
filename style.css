@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color:#15181B;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+:root {
+    --primary_color: #44AAFF;
+}
+
+.container {
+    padding: 20px 80px;
+    display: flex;
+   
+}
+
+/* just tried new values to assign the pfile data */
+.profile-data {
+    margin: 60px 0px;
+    width: 19%;
+}
+
+.profile-data  img:hover{
+    cursor: pointer;
+    transform: scale(1.01); 
+    box-shadow: 0px 0px 30px 6px gray;
+    border-radius: 30px;
+}
+
+.icons {
+    width: 165px;
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+
+
+}
+
+.icons :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 0px 0px 30px 6px gray;
+
+}
+
+
+.profile-data button{
+    width: 165px;
+    margin: 10px 30px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px 40px;
+    cursor: pointer;
+    
+
+
+
+}
+
+.profile-data button:hover{
+    transform: scale(1.1);
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 0px 0px 30px 6px gray;
+
+    
+}
+
+.profile-details {
+    margin-left: 40px;
+   
+}
+
+.profile-details .intro h1 {
+    color: var(--primary_color);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.profile-details .intro h2 {
+    margin: 10px 0px;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+
+.profile-details .intro span {
+    font-size: 12px;
+    font-weight: 400;
+
+
+}
+
+
+/* numbers /experience sec */
+
+.work-done {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.projects:hover{ 
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 6px gray;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: 1px solid var(--primary_color);
+    
+}
+
+.work-done .projects {
+    text-align: center;
+}
+
+.work-done .projects h1 {
+    color: var(--primary_color);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.work-done .projects span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/* about sec */
+.about-sec {
+    margin-top: 90px;
+
+}
+
+.about-sec h1 {
+    color: var(--primary_color);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.about-sec h2 {
+    margin: 15px 0px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.about-sec span {
+    margin: 15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* career-sec */
+
+
+.career-sec {
+    margin: 130px 0px;
+ 
+
+}
+
+.career-sec .education h1 {
+    margin: 15px 0px;
+    color: var(--primary_color);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.career-sec .education h2 {
+    margin: 15px 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.career-sec .sec-workdone span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.sec-workdone {
+    margin: 25px 0px;
+
+}
+
+.career-sec .sec-workdone p {
+    font-size: 22px;
+    font-weight: 450;
+}
+
+/* service-sec */
+
+.service-sec {
+    margin: 120px 0px;
+    width: 100%;
+}
+
+.service-sec h1 {
+    margin: 20px 0px;
+    color: var(--primary_color);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.service-sec h2 {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.service-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+
+.service-btns h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.service-btns p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.btn-one {
+    padding: 0px 30px;
+    border-radius: 15px;
+    border: 1px solid var(--primary_color);
+
+}
+
+.btn-one:hover{
+    border: 1px solid var(--primary_color);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 6px gray;
+
+}
+.btn-two {
+    padding: 0px 40px;
+    border-radius: 15px;
+    border: 1px solid #333333;
+}
+
+.btn-two:hover{
+    transform: scale(1.1);
+    border: 1px solid var(--primary_color);
+    box-shadow: 0px 0px 30px 6px gray;
+
+}
+.btn-three {
+    padding: 0px 40px;
+    border-radius: 15px;
+    border: 1px solid #333333;
+}
+
+.btn-three:hover{
+    transform: scale(1.1);
+    border: 1px solid var(--primary_color);
+    box-shadow: 0px 0px 30px 6px gray;
+
+}
+
+/* skills */
+
+.skills-sec {
+    margin: 120px 0px;
+    width: 100%;
+}
+
+
+
+.skills-sec h1 {
+    margin: 25px 0px;
+    color: var(--primary_color);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+.skills-sec h2 {
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.skill-imgs {
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.skill-imgs :hover{
+    transform: scale(1.1);
+ 
+  
+}
+
+
+/* profile-sec */
+
+.portfolio-sec{
+    margin: 100px 0px;
+    width: 100%;
+}
+.portfolio-sec h1{
+    margin: 25px 0px;
+    color: var(--primary_color);
+    font-size: 22px;
+    font-weight: 400; 
+}
+
+.portfolio-sec h2 {
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.portfolio-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*  Testimonial-sec  */
+
+.Testimonial-sec{
+    margin: 10px 0px;
+} 
+
+.Testimonial-sec h1{
+    margin: 25px 0px;
+    color: var(--primary_color);
+    font-size: 22px;
+    font-weight: 400; 
+} 
+
+.Testimonial-sec h2{
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: 500;
+} 
+
+
+.card-sec{
+    position: relative;
+    display: flex;
+    margin: 70px 0px;
+    border-radius: 40px;
+    width: 600px;
+    height: 350px;
+    padding: 70px;
+    border: 1px solid black; 
+}
+
+
+.card-sec:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 6px gray;
+}
+
+.card-sec p{
+    position: absolute;
+    width: 620px;
+    height: 136px;
+    top: 250px;
+    left: 100px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-sec img{
+    width: 100px;
+    height: 100px;
+}
+.card-info{
+    margin-left: 50px;
+    width: 100%;
+    height: 100px;
+}
+
+.card-info h1{
+    font-size: 34px;
+    font-weight: 600;
+} 
+
+.card-info span{
+    font-size: 17px;
+    font-weight: 400;
+} 
+/* brands-sec */
+
+.brands-sec{
+  margin-top: 150px;
+
+}
+
+.brands-sec h1{
+    margin: 25px 0px;
+    color: var(--primary_color);
+    font-size: 22px;
+    font-weight: 400; 
+}
+
+.brands-sec h2{
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* brands-imgs */
+
+.brands-imgs{
+    margin: 60px 0px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.brands-imgs img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+   
+
+}
+
+/*  contact */
+
+.contact{
+    margin: 50px 0px;
+    color: var(--primary_color);
+    font-size: 22px;
+    font-weight: 400; 
+     
+}
+
+.form-input input{
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid#c7c1c3 ;
+width: 400px;
+padding: 10px;
+
+
+}
+.form-input input:focus{
+    outline: none;
+}
+
+.form-text textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid#c7c1c3 ;
+    width: 400px;
+    padding: 10px;
+  
+    
+}
+
+.form-text textarea:focus{
+    outline: none;
+}
+
+.form-input input{
+    margin: 20px 0px;
+}
+
+.hire-btn{
+padding: 15px 55px;
+border-radius: 15px;
+border: 1px solid #c7c1c3 ;
+margin: 20px 0px;
+}
+
+.hire-btn:hover{
+    transform: scale(1.1);
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 0px 0px 30px 6px gray;
+}
